@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="generarNumero">Generar impar</button>
+        <button @click="generarNumero">Generar numero</button>
         <h1>{{numeroRandom}}</h1>
         <h2 v-if="numeroRandom % 2 == 0">Par</h2>
         <h2 v-else-if="numeroRandom % 2 == 1">Impar</h2>
